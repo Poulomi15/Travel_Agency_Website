@@ -1,0 +1,164 @@
+{% extends 'base.html' %}
+{% block title  %}
+  Home
+{% endblock title  %}
+{% block body %}
+<div class="container-fluid  px-0">
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <picture>
+        <img src="/static/10__.jpg" width="1920" height="600"  alt="...">
+        {% comment %} <img src="static/img/1.jpg." class="d-block w-100" alt="..."> {% endcomment %}
+          <source srcset="https://source.unsplash.com/random/?nature,night/1600x600" type="image/svg+xml">
+        </picture>
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Welcome to Our page</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/11_.jpg" width="1920" height="600"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>You Choose,We Serve</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/12_.jpg" width="1920" height="600"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Thank You , Visit Again.</h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <div class="container my-4 px-0">
+    <h1 class="fw-bolder font-monospace text-primary text-center">Details Of Our Page Is Shown Below</h1>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          
+        <img src="/static/1.jfif" width="425" height="225" 
+        alt="...">
+          <div class="card-body">
+            <h3 class="fw-semibold text-center ">Transportation System</h3>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/2.jpg" 
+          width="425" height="225"  alt="...">
+          <div class="card-body">
+            <h3 class="fw-semibold text-center ">Road Trip</h3>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/3.jpg" 
+          width="425" height="225"   alt="...">
+          <div class="card-body">
+            <h3 class="fw-semibold text-center ">Around City Service </h3>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/4.jpg" 
+          width="425" height="225" alt="...">
+
+          <div class="card-body">
+            <h3 class="fw-semibold text-center ">Hotel Facility</h3>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/5.jpg" 
+          width="425" height="225"  alt="...">
+
+          <div class="card-body">
+            <h3 class="fw-semibold text-center ">Travel Planner</h3>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/6.jpg" 
+          width="425" height="225"  alt="...">
+
+          <div class="card-body">
+            <h3 class="fw-semibold text-center ">Tickets Booking</h3>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/7.jfif" 
+          width="425" height="225"  alt="...">
+
+          <div class="card-body">
+            <h3 class="fw-semibold text-center ">International Travel Planner</h3>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/8.jpg" 
+          width="425" height="225"  alt="...">
+
+          <div class="card-body">
+            <h3 class="fw-semibold text-center ">Our Offers</h3>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/9.jpg" 
+          width="425" height="225"  alt="...">
+
+          <div class="card-body">
+            <h3 class="fw-semibold text-center ">Contact Us</h3>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock body %}
